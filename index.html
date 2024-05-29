@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="home" id="home">
+        <div class="container">
+            <h1>Check Performens</h1>
+            <button id="start">Start</button>
+        </div>
+    </div>
+    <div class="score-section score-section-hide" id="score-section">
+        <div class="container">
+            <div class="score">
+                <p>Your Score : </p>
+                <p id="score"></p>
+            </div>
+        </div>
+    </div>
+    <div class="first-q first-q-hide" id="first-q">
+        <div class="container">
+            <h2>Q 1 : What is HTML?</h2>
+            <div class="ans" id="html-bg">
+                <input type="radio" name="radio" id="markup" onclick="markup()" value="Markup Language">
+                <label for="markup">Markup Language</label> <br><br>
+
+                <input type="radio" name="radio" id="programe" onclick="programe()" value="Programing Language">
+                <label for="programe">Programing Language</label> <br><br>
+
+                <input type="radio" name="radio" id="script" onclick="script()" value="Script Language">
+                <label for="script">Script Language</label> <br><br>
+
+                <input type="radio" name="radio" id="htmlOther" onclick="htmlOther()" value="Other">
+                <label for="htmlOther">Other</label> <br><br>
+            </div>
+
+
+            <button id="html-submit"> Submit</button>
+
+        </div>
+        <div class="html-page">
+            <button id="html-prev">Back</button>
+            <button id="html-next">Next</button>
+        </div>
+    </div>
+    <div class="second-q second-q-hide" id="second-q">
+        <div class="container">
+            <h2>Q 2 : What is the best freelancing marketplace for beginner?</h2>
+            <div class="ans" id="marketplace-bg">
+                <input type="radio" name="radio" id="upwork" onclick="upwork()" value="Upwork">
+                <label for="upwork">Upwork</label> <br><br>
+
+                <input type="radio" name="radio" id="fiverr" onclick="fiverr()" value="Fiverr">
+                <label for="fiverr">Fiverr</label> <br><br>
+
+                <input type="radio" name="radio" id="freelancer" onclick="freelancer()" value="Freelancer">
+                <label for="freelancer">Freelancer</label> <br><br>
+
+                <input type="radio" name="radio" id="guru" onclick="guru()" value="Guru">
+                <label for="guru">Guru</label> <br><br>
+            </div>
+
+
+            <button id="marketplace-submit"> Submit</button>
+
+        </div>
+        <div class="html-page">
+            <button id="marketplace-back">Back</button>
+            <button id="marketplace-next">Next</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

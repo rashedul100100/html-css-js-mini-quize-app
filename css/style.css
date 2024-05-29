@@ -1,0 +1,172 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home {
+    width: 500px;
+    margin: auto;
+    margin-top: 300px;
+    box-shadow: 0px 0px 5px -12px black ;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 8px;
+}
+.home-hide {
+    display: none;
+}
+/* .active {
+    display: none;
+} */
+.home h1 {
+    margin-bottom: 60px;
+}
+.home button {
+    padding: 10px 15px;
+    outline: 0;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+.container {
+    padding: 15px 25px 30px 25px;
+}
+
+/* Score section here */
+
+.score-section {
+    width: 300px;
+    margin: auto;
+}
+.score-section-hide {
+    display: none;
+}
+
+.score {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    /* margin-top: 150px; */
+    box-shadow: 0px 0px 5px -12px black;
+    background-color: #0d5900;
+    border-radius: 8px;
+    box-shadow: 0px 0px 21px -14px black;
+}
+
+/* Html page css here */
+
+.first-q {
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 5px -12px black;
+    background-color: #f7ff0036;
+    border-radius: 8px;
+    box-shadow: 0px 0px 21px -14px black;
+}
+.first-q-hide {
+   display: none;
+}
+.first-q h2 {
+    margin-bottom:  30px;
+}
+.first-q  .ans {
+    background-color: #f7ff0038;
+    padding: 20px;
+    border-radius: 8px;
+}
+.first-q label,
+.first-q input[type = radio] {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+#html-submit {
+    padding: 10px 15px;
+    outline: 0;
+    background-color: #f7ff0038;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.html-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 30px 30px;
+}
+.html-page button {
+    padding: 10px 15px;
+    outline: 0;
+    background-color: #f7ff0038;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.html-btn-hide {
+    display: none;
+}
+
+
+/* Marketplace Page */
+
+.second-q {
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 5px -12px black;
+    background-color: #f7ff0036;
+    border-radius: 8px;
+    box-shadow: 0px 0px 21px -14px black;
+}
+.second-q-hide {
+    display: none;
+}
+.second-q h2 {
+    margin-bottom:  30px;
+}
+.second-q  .ans {
+    background-color: #f7ff0038;
+    padding: 20px;
+    border-radius: 8px;
+}
+.second-q label,
+.second-q input[type = radio] {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+#marketplace-submit {
+    padding: 10px 15px;
+    outline: 0;
+    background-color: #f7ff0038;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.marketplace-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 30px 30px;
+}
+.marketplace-page button {
+    padding: 10px 15px;
+    outline: 0;
+    background-color: #f7ff0038;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.marketplace-btn-hide {
+    display: none;
+}
